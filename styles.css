@@ -1,14 +1,17 @@
+/* General styles */
 body {
     margin: 0;
     font-family: Arial, Helvetica, sans-serif;
     background: #eee;
 }
 
+/* Centered container */
 .container {
     width: 960px;
     margin: 0 auto;
 }
 
+/* Header */
 header {
     background: #333;
     color: #fff;
@@ -46,6 +49,7 @@ header::after {
     clear: both;
 }
 
+/* Main content */
 .content {
     background-image: url("https://www.toptal.com/designers/subtlepatterns/uploads/dot-grid.png");
     padding: 20px;
@@ -53,6 +57,7 @@ header::after {
     overflow: hidden;
 }
 
+/* About section */
 .about {
     width: 65%;
     float: left;
@@ -65,6 +70,7 @@ header::after {
     margin-right: 20px;
 }
 
+/* Sidebar */
 .sidebar {
     width: 30%;
     float: right;
@@ -72,6 +78,14 @@ header::after {
     padding: 20px;
 }
 
+/* Sidebar icons */
+.sidebar img {
+    display: block;
+    margin-bottom: 10px;
+    width: 40px; /* adjust size if needed */
+}
+
+/* Footer */
 footer {
     background: #333;
     color: #fff;
@@ -79,3 +93,4 @@ footer {
     padding: 15px 0;
     margin-top: 20px;
 }
+
