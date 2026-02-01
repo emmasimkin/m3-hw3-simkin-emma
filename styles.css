@@ -51,7 +51,10 @@ header::after {
 
 /* Main content */
 .content {
-    background-image: url("https://www.toptal.com/designers/subtlepatterns/uploads/dot-grid.png");
+    background-image: url("assets/moroccan-flower-dark.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
     padding: 20px;
     margin-top: 20px;
     overflow: hidden;
@@ -68,6 +71,7 @@ header::after {
 .about img {
     float: left;
     margin-right: 20px;
+    width: 200px; /* adjust size as needed */
 }
 
 /* Sidebar */
@@ -82,7 +86,7 @@ header::after {
 .sidebar img {
     display: block;
     margin-bottom: 10px;
-    width: 40px; /* adjust size if needed */
+    width: 40px;
 }
 
 /* Footer */
